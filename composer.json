@@ -8,12 +8,20 @@
         "docs": "https://www.drupal.org/docs/user_guide/en/index.html",
         "chat": "https://www.drupal.org/node/314178"
     },
-    "repositories": [
-        {
+    "repositories": {
+        "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        "ebremner17/players_theme": {
+            "type": "vcs",
+            "url": "https://github.com/ebremner17/players_theme.git"
+        },
+        "ebremner17/players_games": {
+            "type": "vcs",
+            "url": "https://github.com/ebremner17/players_games.git"
         }
-    ],
+    },
     "require": {
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.1",
@@ -22,10 +30,13 @@
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
         "drupal/devel": "^4.1",
+        "drupal/features": "^3.12",
         "drupal/field_group": "^3.2",
         "drupal/multiple_registration": "^3.1",
         "drupal/paragraphs": "^1.13",
-        "drupal/twig_tweak": "^3.1"
+        "drupal/twig_tweak": "^3.1",
+        "ebremner17/players_games": "1.0.x-dev",
+        "ebremner17/players_theme": "1.0.x-dev"
     },
     "conflict": {
         "drupal/drupal": "*"
