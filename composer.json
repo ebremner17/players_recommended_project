@@ -17,26 +17,21 @@
             "type": "vcs",
             "url": "https://github.com/ebremner17/players_theme.git"
         },
-        "ebremner17/players_games": {
+        "ebremner17/players_reserve": {
             "type": "vcs",
-            "url": "https://github.com/ebremner17/players_games.git"
+            "url": "https://github.com/ebremner17/players_reserve.git"
         }
     },
     "require": {
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.1",
-        "drupal/conditional_fields": "4.0.0-alpha1",
-        "drupal/core-composer-scaffold": "^9.3",
-        "drupal/core-project-message": "^9.3",
-        "drupal/core-recommended": "^9.3",
-        "drupal/devel": "^4.1",
-        "drupal/features": "^3.12",
+        "drupal/core-composer-scaffold": "^9.4",
+        "drupal/core-project-message": "^9.4",
+        "drupal/core-recommended": "^9.4",
         "drupal/field_group": "^3.2",
-        "drupal/multiple_registration": "^3.1",
-        "drupal/paragraphs": "^1.13",
-        "drupal/twig_tweak": "^3.1",
+        "drupal/paragraphs": "^1.14",
         "ebremner17/players_games": "1.0.x-dev",
-        "ebremner17/players_theme": "1.0.x-dev"
+        "ebremner17/players_reserve": "1.0.x-dev"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -44,12 +39,13 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true,
         "allow-plugins": {
             "composer/installers": true,
             "drupal/core-composer-scaffold": true,
-            "drupal/core-project-message": true
-        }
+            "drupal/core-project-message": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        },
+        "sort-packages": true
     },
     "extra": {
         "drupal-scaffold": {
