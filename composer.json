@@ -20,6 +20,10 @@
         "ebremner17/players_reserve": {
             "type": "vcs",
             "url": "https://github.com/ebremner17/players_reserve.git"
+        },
+        "ebremner17/players_cfg": {
+            "type": "vcs",
+            "url": "https://github.com/ebremner17/players_cfg.git"
         }
     },
     "require": {
@@ -30,8 +34,10 @@
         "drupal/core-recommended": "^9.4",
         "drupal/field_group": "^3.2",
         "drupal/paragraphs": "^1.14",
-        "ebremner17/players_games": "1.0.x-dev",
-        "ebremner17/players_reserve": "1.0.x-dev"
+        "drupal/twig_tweak": "^3.1",
+        "ebremner17/players_reserve": "1.0.x-dev",
+        "ebremner17/players_cfg": "1.0.x-dev",
+        "ebremner17/players_theme": "1.0.x-dev"
     },
     "conflict": {
         "drupal/drupal": "*"
