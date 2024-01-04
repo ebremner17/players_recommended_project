@@ -57,9 +57,9 @@
         "drupal/ultimate_cron": "^2.0@alpha",
         "drupal/vendor_stream_wrapper": "^2.0",
         "drush/drush": "^11.3",
-        "ebremner17/players_cfg": "1.0.x-dev",
-        "ebremner17/players_reserve": "1.0.x-dev",
-        "ebremner17/players_theme": "1.0.x-dev",
+        "ebremner17/players_cfg": "2.0.x-dev",
+        "ebremner17/players_reserve": "2.0.x-dev",
+        "ebremner17/players_theme": "2.0.x-dev",
         "mailchimp/marketing": "^3.0"
     },
     "conflict": {
